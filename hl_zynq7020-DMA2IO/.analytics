@@ -1,0 +1,2 @@
+timestamp=[2023-06-05 20:45:59], mode=WORKBENCH_START, duration=0:00:07.798, duration_ms=7798, data={}
+timestamp=[2023-06-05 20:46:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.401, duration_ms=1401, data={}

@@ -1,0 +1,64 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/proc_sys_reset_0_peripheral_aresetn:false|/processing_system7_0_FCLK_CLK2:false|/processing_system7_0_FCLK_RESET0_N:false|/processing_system7_0_FCLK_CLK1:false|/M00_ARESETN_1:false|",
+   "Addressing View_ScaleFactor":"0.757858",
+   "Addressing View_TopLeft":"-141,-309",
+   "Color Coded_ScaleFactor":"0.584248",
+   "Color Coded_TopLeft":"-99,-190",
+   "Default View_Layers":"/proc_sys_reset_0_peripheral_aresetn:true|/processing_system7_0_FCLK_CLK2:true|/processing_system7_0_FCLK_RESET0_N:true|/processing_system7_0_FCLK_CLK1:true|/M00_ARESETN_1:true|",
+   "Default View_ScaleFactor":"0.534574",
+   "Default View_TopLeft":"0,-36",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ScaleFactor":"0.597948",
+   "Grouping and No Loops_TopLeft":"-100,-176",
+   "Interfaces View_Layers":"/proc_sys_reset_0_peripheral_aresetn:false|/processing_system7_0_FCLK_CLK2:false|/processing_system7_0_FCLK_RESET0_N:false|/processing_system7_0_FCLK_CLK1:false|/M00_ARESETN_1:false|",
+   "Interfaces View_ScaleFactor":"0.836637",
+   "Interfaces View_TopLeft":"-99,-222",
+   "Reduced Jogs_Layers":"/proc_sys_reset_0_peripheral_aresetn:true|/processing_system7_0_FCLK_CLK2:true|/processing_system7_0_FCLK_RESET0_N:true|/processing_system7_0_FCLK_CLK1:true|/M00_ARESETN_1:true|",
+   "Save as new View_ScaleFactor":"1.0",
+   "Save as new View_TopLeft":"0,-178",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2110 -y 250 -defaultsOSRD
+preplace port ddr3 -pg 1 -lvl 7 -x 2110 -y 230 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 7 -x 2110 -y 640 -defaultsOSRD
+preplace port port-id_PL_CLK_100M -pg 1 -lvl 7 -x 2110 -y 460 -defaultsOSRD
+preplace port port-id_PS_RSTN -pg 1 -lvl 7 -x 2110 -y 480 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 1610 -y 280 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 1 -x 200 -y 540 -defaultsOSRD -resize 300 156
+preplace inst axi_dma_0 -pg 1 -lvl 3 -x 850 -y 290 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 4 -x 1210 -y 260 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 5 -x 1610 -y 580 -defaultsOSRD
+preplace inst smartconnect_1 -pg 1 -lvl 2 -x 530 -y 80 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -x 1210 -y 480 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 5 -x 1610 -y 730 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 6 -x 1970 -y 390 -defaultsOSRD
+preplace inst system_ila_2 -pg 1 -lvl 6 -x 1970 -y 560 -defaultsOSRD
+preplace netloc axi_dma_0_mm2s_introut 1 3 1 1060 340n
+preplace netloc axi_dma_0_s2mm_introut 1 3 1 1020 360n
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 1 5 370 350 680 430 1070 560 1380 490 1850J
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 7 30 640 NJ 640 NJ 640 NJ 640 1370 480 1860 460 NJ
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 5 390 170 670 420 1040 570 1360 390 1850
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 20 440 NJ 440 NJ 440 1050J 410 NJ 410 1870 480 NJ
+preplace netloc xlconcat_0_dout 1 4 2 1350 400 NJ
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 2 1030 550 1350
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 1 N 240
+preplace netloc axi_dma_0_M_AXI_S2MM 1 3 1 N 260
+preplace netloc axi_dma_0_M_AXI_SG 1 3 1 N 220
+preplace netloc processing_system7_0_DDR 1 5 2 NJ 230 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 5 2 NJ 250 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 380 160 NJ 160 NJ 160 NJ 160 1870
+preplace netloc smartconnect_0_M00_AXI 1 4 1 N 260
+preplace netloc smartconnect_1_M00_AXI 1 2 1 680 80n
+preplace netloc axis_data_fifo_0_M_AXIS 1 5 2 1840 640 NJ
+levelinfo -pg 1 0 200 530 850 1210 1610 1970 2110
+pagesize -pg 1 -db -bbox -sgen 0 0 2260 810
+"
+}
+{
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"4"
+}
