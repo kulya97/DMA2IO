@@ -675,7 +675,8 @@ static int SendPacket(XAxiDma * AxiDmaInstPtr) {
 		TxPacket[Index] = Value;
 	}
 
-	// Flush the buffers before the DMA transfer, in case the Data Cache is enabled
+
+	//发送之前刷新缓冲区
 	Xil_DCacheFlushRange((UINTPTR) TxPacket, MAX_PKT_LEN *
 	NUMBER_OF_BDS_TO_TRANSFER);
 	//
@@ -701,13 +702,14 @@ static int SendPacket(XAxiDma * AxiDmaInstPtr) {
 		for (Pkts = 0; Pkts < NUMBER_OF_BDS_PER_PKT; Pkts++) {
 			u32 CrBits = 0;
 
+			//设置缓冲区地址
 			Status = XAxiDma_BdSetBufAddr(BdCurPtr, BufferAddr);
 			if (Status != XST_SUCCESS) {
 				xil_printf("Tx set buffer addr %x on BD %x failed %d\r\n",
 						(unsigned int) BufferAddr, (UINTPTR) BdCurPtr, Status);
 				return XST_FAILURE;
 			}
-
+			//设置长度字段
 			Status = XAxiDma_BdSetLength(BdCurPtr, MAX_PKT_LEN,
 					TxRingPtr->MaxTransferLen);
 			if (Status != XST_SUCCESS) {
@@ -718,14 +720,13 @@ static int SendPacket(XAxiDma * AxiDmaInstPtr) {
 			}
 
 			if (Pkts == 0) {
-				/* The first BD has SOF set
-				 */
+				//起始bd设置sof
 				CrBits |= XAXIDMA_BD_CTRL_TXSOF_MASK;
 			}
 
 			if (Pkts == (NUMBER_OF_BDS_PER_PKT - 1)) {
-				/* The last BD should have EOF and IOC set
-				 */
+
+				//最后一个bd设置eof和ioc
 				CrBits |= XAXIDMA_BD_CTRL_TXEOF_MASK;
 			}
 
