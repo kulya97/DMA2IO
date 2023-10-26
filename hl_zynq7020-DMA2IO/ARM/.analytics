@@ -79,3 +79,6 @@ timestamp=[2023-10-25 16:21:14], mode=BUILD, duration=0:00:00.660, duration_ms=6
 timestamp=[2023-10-25 16:23:23], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
 timestamp=[2023-10-25 17:27:26], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
 timestamp=[2023-10-25 17:29:23], mode=BUILD, duration=0:00:00.414, duration_ms=414, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 08:37:36], mode=WORKBENCH_START, duration=0:00:03.145, duration_ms=3145, data={}
+timestamp=[2023-10-26 08:37:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.331, duration_ms=331, data={editors_count=8, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA2GPIO,DMA2GPIO_system,RemoteSystemsTempFiles,top_module}
+timestamp=[2023-10-26 08:37:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.489, duration_ms=489, data={}
