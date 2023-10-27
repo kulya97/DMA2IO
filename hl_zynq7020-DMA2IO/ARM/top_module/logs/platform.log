@@ -5286,3 +5286,2048 @@ E:/test/hl_zynq7020-mt9v034/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|sy
 
 TRACE::2023-10-25.16:12:43::SCWMssOS::Sw design exists and opened at  E:/test/hl_zynq7020-mt9v034/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
 TRACE::2023-10-25.16:12:43::SCWMssOS::Removing the swdes entry for  E:/test/hl_zynq7020-mt9v034/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:45::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:45::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:45::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:45::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:45::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:45::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:45::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened new HwDB with name top_module
+TRACE::2023-10-26.10:32:54::SCWReader::Active system found as  top_module
+TRACE::2023-10-26.10:32:54::SCWReader::Handling sysconfig top_module
+TRACE::2023-10-26.10:32:54::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-26.10:32:54::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-26.10:32:54::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-10-26.10:32:54::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-10-26.10:32:54::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-26.10:32:54::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:32:54::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:32:54::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-10-26.10:32:54::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.10:32:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.10:32:54::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:32:54::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-26.10:32:54::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:32:54::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWReader::No isolation master present  
+TRACE::2023-10-26.10:32:54::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-26.10:32:54::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-26.10:32:54::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:32:54::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-26.10:32:54::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-26.10:32:54::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.10:32:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.10:32:54::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:32:54::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-26.10:32:54::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:32:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:32:54::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:32:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:32:54::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:32:54::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:32:54::SCWReader::No isolation master present  
+TRACE::2023-10-26.10:33:03::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:03::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:03::SCWPlatform:: Platform location is E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa
+TRACE::2023-10-26.10:33:03::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:12::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:12::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:12::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::update - Opened existing hwdb top_module_0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:12::SCWMssOS::Doing hw sync for the mss in domain: standalone_ps7_cortexa9_0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.10:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:12::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:12::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/tempdsa/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::update - Opened existing hwdb top_module_0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:12::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.10:33:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.10:33:12::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:33:12::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2023-10-26.10:33:12::SCWMssOS::Removing the swdes entry for  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.10:33:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.10:33:12::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:33:12::SCWMssOS::Completed hw sync for the mss in domain: standalone_ps7_cortexa9_0
+TRACE::2023-10-26.10:33:12::SCWMssOS::Removing the swdes entry for  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:12::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:12::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-26.10:33:21::SCWPlatform::Opened new HwDB with name top_module_1
+TRACE::2023-10-26.10:33:21::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWMssOS::Adding the swdes entry, mss present, able to open swdb E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-10-26.10:33:21::SCWMssOS::Writing the mss file completed E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:33:21::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWMssOS::Adding the swdes entry, mss present, able to open swdb E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-26.10:33:21::SCWMssOS::Writing the mss file completed E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:33:21::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:21::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:21::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-26.10:33:21::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-26.10:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:21::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:21::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:21::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:21::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:21::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-26.10:33:21::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-26.10:33:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:21::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:21::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:21::SCWWriter::formatted JSON is {
+	"platformName":	"top_module",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_module",
+	"platHandOff":	"E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_module.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_module",
+	"systems":	[{
+			"systemName":	"top_module",
+			"systemDesc":	"top_module",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_module",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"4e6003d902ce1f6005003146326ae5961",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"df1226829d5149ddb2891bf9bc7335b61",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-10-26.10:33:25::SCWPlatform::Started generating the artifacts platform top_module
+TRACE::2023-10-26.10:33:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-10-26.10:33:25::SCWPlatform::Started generating the artifacts for system configuration top_module
+LOG::2023-10-26.10:33:25::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-10-26.10:33:25::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-10-26.10:33:25::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-10-26.10:33:25::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-10-26.10:33:25::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2023-10-26.10:33:25::SCWSystem::Not a boot domain 
+LOG::2023-10-26.10:33:25::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2023-10-26.10:33:25::SCWDomain::Generating domain artifcats
+TRACE::2023-10-26.10:33:25::SCWMssOS::Generating standalone artifcats
+TRACE::2023-10-26.10:33:25::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/qemu/
+TRACE::2023-10-26.10:33:25::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/standalone_ps7_cortexa9_0/qemu/
+TRACE::2023-10-26.10:33:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-10-26.10:33:25::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:25::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:25::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:25::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:25::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:25::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-26.10:33:25::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-26.10:33:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:25::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:25::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:25::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:25::SCWMssOS::Completed writing the mss file at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-10-26.10:33:25::SCWMssOS::Mss edits present, copying mssfile into export location E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:26::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2023-10-26.10:33:26::SCWMssOS::doing bsp build ... 
+TRACE::2023-10-26.10:33:26::SCWMssOS::System Command Ran  E: & cd  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp & make 
+TRACE::2023-10-26.10:33:26::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -j 30 --no-print-directory par_libs
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_15/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axidma_v9_15/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-10-26.10:33:27::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-10-26.10:33:27::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2023-10-26.10:33:27::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2023-10-26.10:33:27::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2023-10-26.10:33:27::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2023-10-26.10:33:27::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-10-26.10:33:27::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-10-26.10:33:27::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-10-26.10:33:27::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-10-26.10:33:27::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-10-26.10:33:27::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-10-26.10:33:27::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_0/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-10-26.10:33:27::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-10-26.10:33:27::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2023-10-26.10:33:27::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2023-10-26.10:33:27::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-10-26.10:33:27::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-10-26.10:33:27::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-10-26.10:33:27::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-10-26.10:33:27::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-10-26.10:33:27::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-10-26.10:33:27::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_15/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axidma_v9_15/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-10-26.10:33:27::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-10-26.10:33:27::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2023-10-26.10:33:27::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2023-10-26.10:33:27::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-10-26.10:33:27::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-10-26.10:33:27::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-10-26.10:33:27::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-10-26.10:33:27::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-10-26.10:33:27::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-10-26.10:33:27::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_0/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-10-26.10:33:27::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-10-26.10:33:27::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-10-26.10:33:27::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-10-26.10:33:27::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-10-26.10:33:27::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-10-26.10:33:27::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-10-26.10:33:27::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-10-26.10:33:27::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-10-26.10:33:27::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-10-26.10:33:27::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-10-26.10:33:27::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-10-26.10:33:27::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-26.10:33:29::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-10-26.10:33:29::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-10-26.10:33:29::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2023-10-26.10:33:29::SCWMssOS::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2023-10-26.10:33:29::SCWMssOS::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2023-10-26.10:33:29::SCWMssOS::fstat.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0/lib/kill.o ps7_corte
+TRACE::2023-10-26.10:33:29::SCWMssOS::xa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/putnum.o
+TRACE::2023-10-26.10:33:29::SCWMssOS:: ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/time.o ps7_cortexa9_0/lib/tr
+TRACE::2023-10-26.10:33:29::SCWMssOS::anslation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/write
+TRACE::2023-10-26.10:33:29::SCWMssOS::.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xadcps_selftes
+TRACE::2023-10-26.10:33:29::SCWMssOS::t.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xaxidma.o ps7_cortexa9_0/lib/xaxidma_bd.o ps7_cortexa9_0/lib/xaxidma_b
+TRACE::2023-10-26.10:33:29::SCWMssOS::dring.o ps7_cortexa9_0/lib/xaxidma_g.o ps7_cortexa9_0/lib/xaxidma_selftest.o ps7_cortexa9_0/lib/xaxidma_sinit.o ps7_cortexa9_0/
+TRACE::2023-10-26.10:33:29::SCWMssOS::lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_
+TRACE::2023-10-26.10:33:29::SCWMssOS::0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_c
+TRACE::2023-10-26.10:33:29::SCWMssOS::ortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o 
+TRACE::2023-10-26.10:33:29::SCWMssOS::ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_clocking.o 
+TRACE::2023-10-26.10:33:29::SCWMssOS::ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xi
+TRACE::2023-10-26.10:33:29::SCWMssOS::l_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_cortexa9_0
+TRACE::2023-10-26.10:33:29::SCWMssOS::/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cor
+TRACE::2023-10-26.10:33:29::SCWMssOS::texa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xplatform_inf
+TRACE::2023-10-26.10:33:29::SCWMssOS::o.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/xscugic_hw.
+TRACE::2023-10-26.10:33:29::SCWMssOS::o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib
+TRACE::2023-10-26.10:33:29::SCWMssOS::/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_
+TRACE::2023-10-26.10:33:29::SCWMssOS::cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscuwdt_sinit.
+TRACE::2023-10-26.10:33:29::SCWMssOS::o ps7_cortexa9_0/lib/xtime_l.o
+
+TRACE::2023-10-26.10:33:29::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-10-26.10:33:29::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-10-26.10:33:29::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-10-26.10:33:29::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2023-10-26.10:33:29::SCWSystem::Completed Processing the sysconfig top_module
+LOG::2023-10-26.10:33:29::SCWPlatform::Completed generating the artifacts for system configuration top_module
+TRACE::2023-10-26.10:33:29::SCWPlatform::Started preparing the platform 
+TRACE::2023-10-26.10:33:29::SCWSystem::Writing the bif file for system config top_module
+TRACE::2023-10-26.10:33:29::SCWSystem::dir created 
+TRACE::2023-10-26.10:33:29::SCWSystem::Writing the bif 
+TRACE::2023-10-26.10:33:29::SCWPlatform::Started writing the spfm file 
+TRACE::2023-10-26.10:33:29::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-10-26.10:33:29::SCWPlatform::Completed generating the platform
+TRACE::2023-10-26.10:33:29::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.10:33:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.10:33:29::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:33:29::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:29::SCWMssOS::Adding the swdes entry, mss present, able to open swdb E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-26.10:33:29::SCWMssOS::Writing the mss file completed E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:29::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:33:29::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:29::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:29::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-26.10:33:29::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-26.10:33:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:29::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:29::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:29::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:33:29::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:29::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:29::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-26.10:33:29::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-26.10:33:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:29::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:29::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:29::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:29::SCWWriter::formatted JSON is {
+	"platformName":	"top_module",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_module",
+	"platHandOff":	"E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_module.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_module",
+	"systems":	[{
+			"systemName":	"top_module",
+			"systemDesc":	"top_module",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_module",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"4e6003d902ce1f6005003146326ae5961",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"df1226829d5149ddb2891bf9bc7335b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-10-26.10:33:29::SCWPlatform::updated the xpfm file.
+TRACE::2023-10-26.10:33:30::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:30::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:30::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:30::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:33:30::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:33:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:33:30::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-26.10:33:30::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-26.10:33:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:33:30::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:33:30::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:33:30::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:28::SCWPlatform::Clearing the existing platform
+TRACE::2023-10-26.10:47:28::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-10-26.10:47:28::SCWBDomain::clearing the fsbl build
+TRACE::2023-10-26.10:47:28::SCWMssOS::Removing the swdes entry for  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:28::SCWMssOS::Removing the swdes entry for  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:28::SCWSystem::Clearing the domains completed.
+TRACE::2023-10-26.10:47:28::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-10-26.10:47:28::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform:: Platform location is E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:28::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:28::SCWPlatform::Removing the HwDB with name E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:28::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:28::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:28::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened new HwDB with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWReader::Active system found as  top_module
+TRACE::2023-10-26.10:47:38::SCWReader::Handling sysconfig top_module
+TRACE::2023-10-26.10:47:38::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-26.10:47:38::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-26.10:47:38::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-10-26.10:47:38::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-10-26.10:47:38::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-26.10:47:38::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:47:38::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:47:38::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-10-26.10:47:38::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.10:47:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.10:47:38::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:47:38::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-26.10:47:38::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:47:38::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWReader::No isolation master present  
+TRACE::2023-10-26.10:47:38::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-26.10:47:38::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-26.10:47:38::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:47:38::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-26.10:47:38::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-26.10:47:38::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.10:47:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.10:47:38::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.10:47:38::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-26.10:47:38::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.10:47:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.10:47:38::SCWPlatform::Trying to set the existing hwdb with name top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Opened existing hwdb top_module_3
+TRACE::2023-10-26.10:47:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.10:47:38::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.10:47:38::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.10:47:38::SCWReader::No isolation master present  
+TRACE::2023-10-26.15:00:42::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:42::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:42::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:42::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:42::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened new HwDB with name top_module
+TRACE::2023-10-26.15:00:51::SCWReader::Active system found as  top_module
+TRACE::2023-10-26.15:00:51::SCWReader::Handling sysconfig top_module
+TRACE::2023-10-26.15:00:51::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-26.15:00:51::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-26.15:00:51::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-10-26.15:00:51::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-10-26.15:00:51::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-26.15:00:51::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-10-26.15:00:51::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.15:00:51::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-26.15:00:51::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWReader::No isolation master present  
+TRACE::2023-10-26.15:00:51::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-26.15:00:51::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-26.15:00:51::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-26.15:00:51::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-26.15:00:51::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.15:00:51::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-26.15:00:51::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWReader::No isolation master present  
+LOG::2023-10-26.15:00:51::SCWPlatform::Started generating the artifacts platform top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-10-26.15:00:51::SCWPlatform::Started generating the artifacts for system configuration top_module
+LOG::2023-10-26.15:00:51::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-10-26.15:00:51::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-10-26.15:00:51::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-10-26.15:00:51::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-10-26.15:00:51::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2023-10-26.15:00:51::SCWSystem::Not a boot domain 
+LOG::2023-10-26.15:00:51::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2023-10-26.15:00:51::SCWDomain::Generating domain artifcats
+TRACE::2023-10-26.15:00:51::SCWMssOS::Generating standalone artifcats
+TRACE::2023-10-26.15:00:51::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/qemu/
+TRACE::2023-10-26.15:00:51::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/standalone_ps7_cortexa9_0/qemu/
+TRACE::2023-10-26.15:00:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Completed writing the mss file at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-10-26.15:00:51::SCWMssOS::Mss edits present, copying mssfile into export location E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-10-26.15:00:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-10-26.15:00:51::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2023-10-26.15:00:51::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-10-26.15:00:51::SCWMssOS::Copying to export directory.
+TRACE::2023-10-26.15:00:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-10-26.15:00:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-10-26.15:00:51::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2023-10-26.15:00:51::SCWSystem::Completed Processing the sysconfig top_module
+LOG::2023-10-26.15:00:51::SCWPlatform::Completed generating the artifacts for system configuration top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Started preparing the platform 
+TRACE::2023-10-26.15:00:51::SCWSystem::Writing the bif file for system config top_module
+TRACE::2023-10-26.15:00:51::SCWSystem::dir created 
+TRACE::2023-10-26.15:00:51::SCWSystem::Writing the bif 
+TRACE::2023-10-26.15:00:51::SCWPlatform::Started writing the spfm file 
+TRACE::2023-10-26.15:00:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-10-26.15:00:51::SCWPlatform::Completed generating the platform
+TRACE::2023-10-26.15:00:51::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-26.15:00:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:51::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:51::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:51::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:51::SCWWriter::formatted JSON is {
+	"platformName":	"top_module",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_module",
+	"platHandOff":	"E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_module.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_module",
+	"systems":	[{
+			"systemName":	"top_module",
+			"systemDesc":	"top_module",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_module",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"4e6003d902ce1f6005003146326ae5961",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"df1226829d5149ddb2891bf9bc7335b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-10-26.15:00:51::SCWPlatform::updated the xpfm file.
+TRACE::2023-10-26.15:00:52::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:52::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:52::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:52::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-26.15:00:52::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-26.15:00:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-26.15:00:52::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-26.15:00:52::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-26.15:00:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-26.15:00:52::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-26.15:00:52::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-26.15:00:52::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:06::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:06::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:06::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:06::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:06::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:06::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:06::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened new HwDB with name top_module
+TRACE::2023-10-27.10:37:15::SCWReader::Active system found as  top_module
+TRACE::2023-10-27.10:37:15::SCWReader::Handling sysconfig top_module
+TRACE::2023-10-27.10:37:15::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-27.10:37:15::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-27.10:37:15::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-10-27.10:37:15::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-10-27.10:37:15::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-27.10:37:15::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:15::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:15::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-10-27.10:37:15::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:37:15::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-27.10:37:15::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:15::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWReader::No isolation master present  
+TRACE::2023-10-27.10:37:15::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-27.10:37:15::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-27.10:37:15::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:15::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-27.10:37:15::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-27.10:37:15::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:37:15::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-27.10:37:15::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:15::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWReader::No isolation master present  
+LOG::2023-10-27.10:37:15::SCWPlatform::Started generating the artifacts platform top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-10-27.10:37:15::SCWPlatform::Started generating the artifacts for system configuration top_module
+LOG::2023-10-27.10:37:15::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-10-27.10:37:15::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-10-27.10:37:15::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-10-27.10:37:15::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-10-27.10:37:15::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2023-10-27.10:37:15::SCWSystem::Not a boot domain 
+LOG::2023-10-27.10:37:15::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2023-10-27.10:37:15::SCWDomain::Generating domain artifcats
+TRACE::2023-10-27.10:37:15::SCWMssOS::Generating standalone artifcats
+TRACE::2023-10-27.10:37:15::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/qemu/
+TRACE::2023-10-27.10:37:15::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/standalone_ps7_cortexa9_0/qemu/
+TRACE::2023-10-27.10:37:15::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:15::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:15::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Completed writing the mss file at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-10-27.10:37:15::SCWMssOS::Mss edits present, copying mssfile into export location E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-10-27.10:37:15::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-10-27.10:37:15::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2023-10-27.10:37:15::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-10-27.10:37:15::SCWMssOS::Copying to export directory.
+TRACE::2023-10-27.10:37:15::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-10-27.10:37:15::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-10-27.10:37:15::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2023-10-27.10:37:15::SCWSystem::Completed Processing the sysconfig top_module
+LOG::2023-10-27.10:37:15::SCWPlatform::Completed generating the artifacts for system configuration top_module
+TRACE::2023-10-27.10:37:15::SCWPlatform::Started preparing the platform 
+TRACE::2023-10-27.10:37:15::SCWSystem::Writing the bif file for system config top_module
+TRACE::2023-10-27.10:37:15::SCWSystem::dir created 
+TRACE::2023-10-27.10:37:15::SCWSystem::Writing the bif 
+TRACE::2023-10-27.10:37:15::SCWPlatform::Started writing the spfm file 
+TRACE::2023-10-27.10:37:15::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-10-27.10:37:15::SCWPlatform::Completed generating the platform
+TRACE::2023-10-27.10:37:15::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:37:15::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:37:15::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:15::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:15::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:16::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:16::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:16::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:16::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:16::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:16::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:16::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:16::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:16::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:16::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:16::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:16::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:16::SCWWriter::formatted JSON is {
+	"platformName":	"top_module",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_module",
+	"platHandOff":	"E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_module.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_module",
+	"systems":	[{
+			"systemName":	"top_module",
+			"systemDesc":	"top_module",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_module",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"4e6003d902ce1f6005003146326ae5961",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"df1226829d5149ddb2891bf9bc7335b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-10-27.10:37:16::SCWPlatform::updated the xpfm file.
+TRACE::2023-10-27.10:37:16::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:16::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:16::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:16::SCWPlatform::Trying to set the existing hwdb with name top_module
+TRACE::2023-10-27.10:37:16::SCWPlatform::Opened existing hwdb top_module
+TRACE::2023-10-27.10:37:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:16::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:16::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:16::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:48::SCWPlatform::Clearing the existing platform
+TRACE::2023-10-27.10:37:48::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-10-27.10:37:48::SCWBDomain::clearing the fsbl build
+TRACE::2023-10-27.10:37:48::SCWMssOS::Removing the swdes entry for  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:48::SCWMssOS::Removing the swdes entry for  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:48::SCWSystem::Clearing the domains completed.
+TRACE::2023-10-27.10:37:48::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-10-27.10:37:48::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform:: Platform location is E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:48::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:48::SCWPlatform::Removing the HwDB with name E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:48::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened new HwDB with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWReader::Active system found as  top_module
+TRACE::2023-10-27.10:37:57::SCWReader::Handling sysconfig top_module
+TRACE::2023-10-27.10:37:57::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-27.10:37:57::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-27.10:37:57::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-10-27.10:37:57::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-10-27.10:37:57::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-27.10:37:57::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS:: library already available in sw design:  xilffs:4.8
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-10-27.10:37:57::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:37:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:37:57::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:37:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-27.10:37:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWReader::No isolation master present  
+TRACE::2023-10-27.10:37:57::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-27.10:37:57::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-10-27.10:37:57::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-27.10:37:57::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-27.10:37:57::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:37:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:37:57::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:37:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-27.10:37:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWReader::No isolation master present  
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::In reload Mss file.
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-27.10:37:57::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-27.10:37:57::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:37:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:37:57::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:37:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:37:57::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:37:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:37:57::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:37:57::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:37:57::SCWMssOS::Removing the swdes entry for  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+LOG::2023-10-27.10:38:48::SCWPlatform::Started generating the artifacts platform top_module
+TRACE::2023-10-27.10:38:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-10-27.10:38:48::SCWPlatform::Started generating the artifacts for system configuration top_module
+LOG::2023-10-27.10:38:48::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-10-27.10:38:48::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-10-27.10:38:48::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-10-27.10:38:48::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-10-27.10:38:48::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2023-10-27.10:38:48::SCWSystem::Not a boot domain 
+LOG::2023-10-27.10:38:48::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2023-10-27.10:38:48::SCWDomain::Generating domain artifcats
+TRACE::2023-10-27.10:38:48::SCWMssOS::Generating standalone artifcats
+TRACE::2023-10-27.10:38:48::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/qemu/
+TRACE::2023-10-27.10:38:48::SCWMssOS::Copying the qemu file from  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt To E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/sw/top_module/standalone_ps7_cortexa9_0/qemu/
+TRACE::2023-10-27.10:38:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:38:48::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:38:48::SCWMssOS::No sw design opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::mss exists loading the mss file  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::Opened the sw design from mss  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::Adding the swdes entry E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2023-10-27.10:38:48::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-27.10:38:48::SCWMssOS::Opened the sw design.  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::Completed writing the mss file at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2023-10-27.10:38:48::SCWMssOS::Mss edits present, copying mssfile into export location E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-10-27.10:38:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-10-27.10:38:48::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2023-10-27.10:38:48::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-10-27.10:38:48::SCWMssOS::Copying to export directory.
+TRACE::2023-10-27.10:38:48::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-10-27.10:38:48::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-10-27.10:38:48::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2023-10-27.10:38:48::SCWSystem::Completed Processing the sysconfig top_module
+LOG::2023-10-27.10:38:48::SCWPlatform::Completed generating the artifacts for system configuration top_module
+TRACE::2023-10-27.10:38:48::SCWPlatform::Started preparing the platform 
+TRACE::2023-10-27.10:38:48::SCWSystem::Writing the bif file for system config top_module
+TRACE::2023-10-27.10:38:48::SCWSystem::dir created 
+TRACE::2023-10-27.10:38:48::SCWSystem::Writing the bif 
+TRACE::2023-10-27.10:38:48::SCWPlatform::Started writing the spfm file 
+TRACE::2023-10-27.10:38:48::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-10-27.10:38:48::SCWPlatform::Completed generating the platform
+TRACE::2023-10-27.10:38:48::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:38:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:38:48::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:38:48::SCWMssOS::Saving the mss changes E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-27.10:38:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-27.10:38:48::SCWMssOS::Commit changes completed.
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:38:48::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:38:48::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:38:48::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:38:48::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWWriter::formatted JSON is {
+	"platformName":	"top_module",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_module",
+	"platHandOff":	"E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_module.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_module",
+	"systems":	[{
+			"systemName":	"top_module",
+			"systemDesc":	"top_module",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_module",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"4e6003d902ce1f6005003146326ae5961",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/top_module/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"df1226829d5149ddb2891bf9bc7335b6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-10-27.10:38:48::SCWPlatform::updated the xpfm file.
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to open the hw design at E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA given E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA absoulate path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform::DSA directory E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Platform Path E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/hw/top_module.xsa
+TRACE::2023-10-27.10:38:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-10-27.10:38:48::SCWPlatform::Trying to set the existing hwdb with name top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Opened existing hwdb top_module_1
+TRACE::2023-10-27.10:38:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-27.10:38:48::SCWMssOS::Checking the sw design at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2023-10-27.10:38:48::SCWMssOS::DEBUG:  swdes dump  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-10-27.10:38:48::SCWMssOS::Sw design exists and opened at  E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss

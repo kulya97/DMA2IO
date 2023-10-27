@@ -33,3 +33,11 @@ platform generate -domains
 platform config -updatehw {E:/test/hl_zynq7020-mt9v034/top_module.xsa}
 platform generate -domains 
 bsp reload
+platform active {top_module}
+platform config -updatehw {E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa}
+platform generate -domains 
+platform generate -domains 
+platform generate -domains 
+platform active {top_module}
+bsp reload
+platform generate -domains 

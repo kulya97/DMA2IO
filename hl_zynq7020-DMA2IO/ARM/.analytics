@@ -82,3 +82,54 @@ timestamp=[2023-10-25 17:29:23], mode=BUILD, duration=0:00:00.414, duration_ms=4
 timestamp=[2023-10-26 08:37:36], mode=WORKBENCH_START, duration=0:00:03.145, duration_ms=3145, data={}
 timestamp=[2023-10-26 08:37:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.331, duration_ms=331, data={editors_count=8, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA2GPIO,DMA2GPIO_system,RemoteSystemsTempFiles,top_module}
 timestamp=[2023-10-26 08:37:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.489, duration_ms=489, data={}
+timestamp=[2023-10-26 10:33:30], mode=PLATFORM_GENERATION, duration=0:00:05.468, duration_ms=5468, data={name=top_module}
+timestamp=[2023-10-26 10:33:45], mode=BUILD, duration=0:00:01.236, duration_ms=1236, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:33:48], mode=BUILD, duration=0:00:03.248, duration_ms=3248, data={name=DMA2GPIO_system, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 14:59:58], mode=WORKBENCH_START, duration=0:00:05.038, duration_ms=5038, data={}
+timestamp=[2023-10-26 14:59:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.452, duration_ms=452, data={editors_count=6, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA2GPIO,DMA2GPIO_system,RemoteSystemsTempFiles,top_module}
+timestamp=[2023-10-26 15:00:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.553, duration_ms=553, data={}
+timestamp=[2023-10-26 15:00:52], mode=PLATFORM_GENERATION, duration=0:00:11.013, duration_ms=11013, data={name=top_module}
+timestamp=[2023-10-26 15:01:01], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 15:16:20], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 09:24:34], mode=WORKBENCH_START, duration=0:00:05.182, duration_ms=5182, data={}
+timestamp=[2023-10-27 09:24:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.483, duration_ms=483, data={editors_count=6, platform_editors_count=4, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=DMA2GPIO,DMA2GPIO_system,RemoteSystemsTempFiles,top_module}
+timestamp=[2023-10-27 09:24:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.761, duration_ms=761, data={}
+timestamp=[2023-10-27 10:37:17], mode=PLATFORM_GENERATION, duration=0:00:12.167, duration_ms=12167, data={name=top_module}
+timestamp=[2023-10-27 10:37:27], mode=BUILD, duration=0:00:01.421, duration_ms=1421, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 10:37:37], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 10:37:44], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 10:38:49], mode=PLATFORM_GENERATION, duration=0:00:01.568, duration_ms=1568, data={name=top_module}
+timestamp=[2023-10-27 10:38:49], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 10:38:56], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 10:39:53], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 11:46:28], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:12:17], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:14:22], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:15:29], mode=BUILD, duration=0:00:00.411, duration_ms=411, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:16:14], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:16:31], mode=BUILD, duration=0:00:00.398, duration_ms=398, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:17:03], mode=BUILD, duration=0:00:00.349, duration_ms=349, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:17:18], mode=BUILD, duration=0:00:00.397, duration_ms=397, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:17:33], mode=BUILD, duration=0:00:00.402, duration_ms=402, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:17:50], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:18:07], mode=BUILD, duration=0:00:00.410, duration_ms=410, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:18:22], mode=BUILD, duration=0:00:00.399, duration_ms=399, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:18:54], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:19:10], mode=BUILD, duration=0:00:00.408, duration_ms=408, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:19:27], mode=BUILD, duration=0:00:00.409, duration_ms=409, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:19:42], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:20:21], mode=BUILD, duration=0:00:00.408, duration_ms=408, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:20:37], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:20:51], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:21:18], mode=BUILD, duration=0:00:00.407, duration_ms=407, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:21:50], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:22:06], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:28:26], mode=BUILD, duration=0:00:00.414, duration_ms=414, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:32:42], mode=BUILD, duration=0:00:00.399, duration_ms=399, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:45:46], mode=BUILD, duration=0:00:00.408, duration_ms=408, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:06:29], mode=BUILD, duration=0:00:00.415, duration_ms=415, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:07:06], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:07:36], mode=BUILD, duration=0:00:00.158, duration_ms=158, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:07:50], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:08:25], mode=BUILD, duration=0:00:00.411, duration_ms=411, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:08:47], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=DMA2GPIO, configuration=Debug, clean_build=false}
