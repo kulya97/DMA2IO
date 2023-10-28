@@ -19,10 +19,8 @@ extern void xil_printf(const char *format, ...);
 /************************************************************/
 //地址
 #define MEM_BASE_ADDR		0x01000000
-
 #define TX_BD_SPACE_BASE	(MEM_BASE_ADDR + 0x00100000)
-#define TX_BD_SPACE_HIGH	(MEM_BASE_ADDR + 0x00FFFFFF)
-
+#define TX_BD_SPACE_HIGH	(MEM_BASE_ADDR + 0x01FFFFFF)
 #define TX_BUFFER_BASE		(MEM_BASE_ADDR + 0x10000000)
 
 #define RX_BD_SPACE_BASE	(MEM_BASE_ADDR)
@@ -46,9 +44,9 @@ extern void xil_printf(const char *format, ...);
 //？？？！！！是否称为每个bd的内存大小更为合适
 #define MAX_PKT_LEN		0x1000   //单位bit
 // 每个packet对应的BD数量
-#define NUMBER_OF_BDS_PER_PKT		128
+#define NUMBER_OF_BDS_PER_PKT		2
 // 一共要传输的packet个数
-#define NUMBER_OF_PKTS_TO_TRANSFER 	0xFF
+#define NUMBER_OF_PKTS_TO_TRANSFER 	0x10
 // 总共需要的BD总数
 #define NUMBER_OF_BDS_TO_TRANSFER	(NUMBER_OF_PKTS_TO_TRANSFER *NUMBER_OF_BDS_PER_PKT)
 /************************************************************/
@@ -538,14 +536,14 @@ static int SendPacket(XAxiDma * AxiDmaInstPtr) {
 
 	//限制单个pkt报文长度
 	//单个pkg长度要小于最大传输长度，bdlen*bdnum
-//	if (MAX_PKT_LEN * NUMBER_OF_BDS_PER_PKT > TxRingPtr->MaxTransferLen) {
-//
-//		xil_printf("Invalid total per packet transfer length for the "
-//				"packet %d/%d\r\n",
-//		MAX_PKT_LEN * NUMBER_OF_BDS_PER_PKT, TxRingPtr->MaxTransferLen);
-//
-//		return XST_INVALID_PARAM;
-//	}
+	if (MAX_PKT_LEN * NUMBER_OF_BDS_PER_PKT > TxRingPtr->MaxTransferLen) {
+
+		xil_printf("Invalid total per packet transfer length for the "
+				"packet %d/%d\r\n",
+		MAX_PKT_LEN * NUMBER_OF_BDS_PER_PKT, TxRingPtr->MaxTransferLen);
+
+		return XST_INVALID_PARAM;
+	}
 
 	TxPacket = (u32 *) Packet;
 
@@ -553,20 +551,20 @@ static int SendPacket(XAxiDma * AxiDmaInstPtr) {
 	//每个bd长度*总共的bd数
 	for (Index = 0; Index < MAX_PKT_LEN * NUMBER_OF_BDS_TO_TRANSFER / 4;
 			Index = Index + 1) {
-		if (Index % 5 == 1 && Index < 4096*200)
-			Value = 0xFFFFFFFF;
-		else if (Index % 2 == 1 && Index >= 4096*200 && Index < 4096*500)
-			Value = 0xFFFFFFFF;
-		else if (Index % 200 == 1 && Index >= 4096*500 && Index < 4096*900)
-			Value = 0xFFFFFFFF;
-		else if (Index >= 4096*900 && Index < 4096*1200)
-			Value = 0xFFFFFFFF;
-		else if (Index >= 4096*1200 && Index < 4096*1500)
-			Value = 0x0;
-		else if (Index >= 4096*1500 && Index < 4096*1800)
-			Value = 0xFFFFFFFF;
-//		if (Index % 5 == 1)
+//		if (Index % 5 == 1 && Index < 4096*200)
 //			Value = 0xFFFFFFFF;
+//		else if (Index % 2 == 1 && Index >= 4096*200 && Index < 4096*500)
+//			Value = 0xFFFFFFFF;
+//		else if (Index % 200 == 1 && Index >= 4096*500 && Index < 4096*900)
+//			Value = 0xFFFFFFFF;
+//		else if (Index >= 4096*900 && Index < 4096*1200)
+//			Value = 0xFFFFFFFF;
+//		else if (Index >= 4096*1200 && Index < 4096*1500)
+//			Value = 0x0;
+//		else if (Index >= 4096*1500 && Index < 4096*1800)
+//			Value = 0xFFFFFFFF;
+		if (Index % 5 == 1)
+			Value = 0xFFFFFFFF;
 //		else if (Index >= 300 && Index < 600)
 //			Value = 0xFFFF;
 		else
