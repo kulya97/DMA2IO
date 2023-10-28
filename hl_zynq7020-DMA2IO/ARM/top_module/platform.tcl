@@ -24,3 +24,6 @@ bsp reload
 platform generate -domains 
 platform config -updatehw {E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa}
 platform generate -domains 
+platform generate
+platform clean
+platform generate

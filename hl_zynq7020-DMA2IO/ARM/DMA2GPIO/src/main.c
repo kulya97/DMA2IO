@@ -563,7 +563,7 @@ static int SendPacket(XAxiDma * AxiDmaInstPtr) {
 			Value = 0xFFFFFFFF;
 		else if (Index >= 4096*1200 && Index < 4096*1500)
 			Value = 0x0;
-		else if (Index >= 4096*1500 && Index < 4096*1800)
+		else if (Index >= 4096*256*10 && Index < 4096*256*31)
 			Value = 0xFFFFFFFF;
 //		if (Index % 5 == 1)
 //			Value = 0xFFFFFFFF;
