@@ -28,3 +28,20 @@ platform generate
 platform clean
 platform generate
 platform generate
+platform active {top_module}
+platform config -updatehw {E:/DMA2IO/hl_zynq7020-DMA2IO/top_module.xsa}
+platform generate -domains 
+bsp reload
+platform generate -domains 
+domain active {zynq_fsbl}
+bsp reload
+domain active {standalone_ps7_cortexa9_0}
+bsp config stdin "ps7_uart_0"
+bsp config stdout "ps7_coresight_comp_0"
+bsp config stdout "ps7_uart_0"
+bsp write
+bsp reload
+catch {bsp regenerate}
+domain active {zynq_fsbl}
+bsp reload
+platform generate -domains standalone_ps7_cortexa9_0 

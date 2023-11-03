@@ -6,8 +6,8 @@ BEGIN OS
  PARAMETER OS_NAME = standalone
  PARAMETER OS_VER = 8.0
  PARAMETER PROC_INSTANCE = ps7_cortexa9_0
- PARAMETER stdin = ps7_coresight_comp_0
- PARAMETER stdout = ps7_coresight_comp_0
+ PARAMETER stdin = ps7_uart_0
+ PARAMETER stdout = ps7_uart_0
 END
 
 
@@ -178,6 +178,12 @@ BEGIN DRIVER
  PARAMETER DRIVER_NAME = xadcps
  PARAMETER DRIVER_VER = 2.6
  PARAMETER HW_INSTANCE = ps7_xadc_0
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartps
+ PARAMETER DRIVER_VER = 3.11
+ PARAMETER HW_INSTANCE = ps7_uart_0
 END
 
 
