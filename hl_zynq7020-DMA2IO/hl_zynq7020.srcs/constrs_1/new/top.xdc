@@ -71,3 +71,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports {GPIO[30]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {GPIO[31]}]
 
 
+set_property PACKAGE_PIN M17 [get_ports UART_RX]
+set_property PACKAGE_PIN L17 [get_ports UART_TX]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_RX]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_TX]

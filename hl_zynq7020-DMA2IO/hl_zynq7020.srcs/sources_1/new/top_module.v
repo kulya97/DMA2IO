@@ -40,7 +40,8 @@ module top_module (
     output        ddr3_ras_n,
     output        ddr3_reset_n,
     output        ddr3_we_n,
-
+    input         UART_RX,
+    output        UART_TX,
     output [31:0] GPIO
 );
 
@@ -71,7 +72,8 @@ module top_module (
       .PL_CLK_100M(PL_CLK_100M),
       .PS_RSTN    (PS_RSTN),
 
-
+      .UART_rxd         (UART_RX),
+      .UART_txd         (UART_TX),
       .FIXED_IO_ddr_vrn (),
       .FIXED_IO_ddr_vrp (),
       .FIXED_IO_mio     (),

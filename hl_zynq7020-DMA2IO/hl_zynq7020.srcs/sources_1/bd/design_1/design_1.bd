@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xD65C4A06A98D894D",
+      "boundary_crc": "0x307C048AD082B50A",
       "device": "xq7z020cl484-2I",
       "gen_directory": "../../../../hl_zynq7020.gen/sources_1/bd/design_1",
       "name": "design_1",
@@ -20,7 +20,8 @@
       "xlconcat_0": "",
       "system_ila_0": "",
       "system_ila_1": "",
-      "system_ila_2": ""
+      "system_ila_2": "",
+      "rst_ps7_0_200M": ""
     },
     "interface_ports": {
       "FIXED_IO": {
@@ -270,6 +271,21 @@
             "direction": "O"
           }
         }
+      },
+      "UART": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:uart:1.0",
+        "vlnv": "xilinx.com:interface:uart_rtl:1.0",
+        "port_maps": {
+          "RxD": {
+            "physical_name": "UART_rxd",
+            "direction": "I"
+          },
+          "TxD": {
+            "physical_name": "UART_txd",
+            "direction": "O"
+          }
+        }
       }
     },
     "ports": {
@@ -385,7 +401,7 @@
             "value": "111.111115"
           },
           "PCW_ACT_UART_PERIPHERAL_FREQMHZ": {
-            "value": "10.000000"
+            "value": "100.000000"
           },
           "PCW_ACT_WDT_PERIPHERAL_FREQMHZ": {
             "value": "111.111115"
@@ -414,8 +430,20 @@
           "PCW_EN_EMIO_GPIO": {
             "value": "0"
           },
+          "PCW_EN_EMIO_MODEM_UART0": {
+            "value": "0"
+          },
+          "PCW_EN_EMIO_UART0": {
+            "value": "1"
+          },
+          "PCW_EN_MODEM_UART0": {
+            "value": "0"
+          },
           "PCW_EN_SDIO0": {
             "value": "0"
+          },
+          "PCW_EN_UART0": {
+            "value": "1"
           },
           "PCW_FCLK_CLK0_BUF": {
             "value": "FALSE"
@@ -452,6 +480,21 @@
           },
           "PCW_SDIO_PERIPHERAL_VALID": {
             "value": "0"
+          },
+          "PCW_UART0_GRP_FULL_ENABLE": {
+            "value": "0"
+          },
+          "PCW_UART0_PERIPHERAL_ENABLE": {
+            "value": "1"
+          },
+          "PCW_UART0_UART0_IO": {
+            "value": "EMIO"
+          },
+          "PCW_UART_PERIPHERAL_FREQMHZ": {
+            "value": "100"
+          },
+          "PCW_UART_PERIPHERAL_VALID": {
+            "value": "1"
           },
           "PCW_UIPARAM_ACT_DDR_FREQ_MHZ": {
             "value": "400.000000"
@@ -820,6 +863,9 @@
         "xci_path": "ip\\design_1_smartconnect_0_1\\design_1_smartconnect_0_1.xci",
         "inst_hier_path": "smartconnect_1",
         "parameters": {
+          "NUM_MI": {
+            "value": "2"
+          },
           "NUM_SI": {
             "value": "1"
           }
@@ -838,10 +884,42 @@
               }
             },
             "bridges": [
-              "M00_AXI"
+              "M00_AXI",
+              "M01_AXI"
             ]
           },
           "M00_AXI": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
+              "NUM_READ_OUTSTANDING": {
+                "value": "8"
+              },
+              "NUM_READ_THREADS": {
+                "value": "1"
+              },
+              "NUM_WRITE_OUTSTANDING": {
+                "value": "8"
+              },
+              "NUM_WRITE_THREADS": {
+                "value": "1"
+              },
+              "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
+                "value": "0"
+              },
+              "WUSER_BITS_PER_BYTE": {
+                "value": "0"
+              }
+            }
+          },
+          "M01_AXI": {
             "mode": "Master",
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
@@ -988,6 +1066,12 @@
             "vlnv": "xilinx.com:interface:axis_rtl:1.0"
           }
         }
+      },
+      "rst_ps7_0_200M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "xci_name": "design_1_rst_ps7_0_200M_0",
+        "xci_path": "ip\\design_1_rst_ps7_0_200M_0\\design_1_rst_ps7_0_200M_0.xci",
+        "inst_hier_path": "rst_ps7_0_200M"
       }
     },
     "interface_nets": {
@@ -1057,6 +1141,12 @@
           "smartconnect_1/S00_AXI"
         ]
       },
+      "processing_system7_0_UART_0": {
+        "interface_ports": [
+          "UART",
+          "processing_system7_0/UART_0"
+        ]
+      },
       "smartconnect_0_M00_AXI": {
         "interface_ports": [
           "smartconnect_0/M00_AXI",
@@ -1116,14 +1206,16 @@
           "axi_dma_0/m_axi_s2mm_aclk",
           "system_ila_0/clk",
           "system_ila_1/clk",
-          "axi_dma_0/m_axi_sg_aclk"
+          "axi_dma_0/m_axi_sg_aclk",
+          "rst_ps7_0_200M/slowest_sync_clk"
         ]
       },
       "processing_system7_0_FCLK_RESET0_N": {
         "ports": [
           "processing_system7_0/FCLK_RESET0_N",
           "PS_RSTN",
-          "proc_sys_reset_1/ext_reset_in"
+          "proc_sys_reset_1/ext_reset_in",
+          "rst_ps7_0_200M/ext_reset_in"
         ]
       },
       "xlconcat_0_dout": {

@@ -166,6 +166,7 @@ void SetIntIO(){//设置积分时的io状态
 		/*****************************************************************************/
 
 		int main(void) {
+
 			int Status;
 			XAxiDma_Config *Config;
 			xil_printf("\r\n--- Entering main() --- \r\n");

@@ -6,8 +6,8 @@
    "Color Coded_ScaleFactor":"0.584248",
    "Color Coded_TopLeft":"-99,-190",
    "Default View_Layers":"/proc_sys_reset_0_peripheral_aresetn:true|/processing_system7_0_FCLK_CLK2:true|/processing_system7_0_FCLK_RESET0_N:true|/processing_system7_0_FCLK_CLK1:true|/M00_ARESETN_1:true|",
-   "Default View_ScaleFactor":"0.529877",
-   "Default View_TopLeft":"0,-40",
+   "Default View_ScaleFactor":"0.508728",
+   "Default View_TopLeft":"519,132",
    "Display-PortTypeClock":"true",
    "Display-PortTypeOthers":"true",
    "Display-PortTypeReset":"true",
@@ -22,43 +22,48 @@
    "Save as new View_TopLeft":"0,-178",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
-preplace port FIXED_IO -pg 1 -lvl 7 -x 2140 -y 250 -defaultsOSRD
-preplace port ddr3 -pg 1 -lvl 7 -x 2140 -y 230 -defaultsOSRD
-preplace port M_AXIS -pg 1 -lvl 7 -x 2140 -y 640 -defaultsOSRD
-preplace port port-id_PL_CLK_100M -pg 1 -lvl 7 -x 2140 -y 460 -defaultsOSRD
-preplace port port-id_PS_RSTN -pg 1 -lvl 7 -x 2140 -y 480 -defaultsOSRD
-preplace inst processing_system7_0 -pg 1 -lvl 5 -x 1630 -y 280 -defaultsOSRD
-preplace inst proc_sys_reset_1 -pg 1 -lvl 1 -x 200 -y 540 -defaultsOSRD -resize 300 156
-preplace inst axi_dma_0 -pg 1 -lvl 3 -x 870 -y 290 -defaultsOSRD
-preplace inst smartconnect_0 -pg 1 -lvl 4 -x 1230 -y 260 -defaultsOSRD
-preplace inst axis_data_fifo_0 -pg 1 -lvl 5 -x 1630 -y 580 -defaultsOSRD
-preplace inst smartconnect_1 -pg 1 -lvl 2 -x 530 -y 80 -defaultsOSRD
-preplace inst xlconcat_0 -pg 1 -lvl 4 -x 1230 -y 480 -defaultsOSRD
-preplace inst system_ila_0 -pg 1 -lvl 5 -x 1630 -y 730 -defaultsOSRD
-preplace inst system_ila_1 -pg 1 -lvl 6 -x 1990 -y 390 -defaultsOSRD
-preplace inst system_ila_2 -pg 1 -lvl 6 -x 1990 -y 560 -defaultsOSRD
-preplace netloc axi_dma_0_mm2s_introut 1 3 1 1060 340n
-preplace netloc axi_dma_0_s2mm_introut 1 3 1 1050 360n
-preplace netloc proc_sys_reset_1_peripheral_aresetn 1 1 5 370 180 700 160 1080 370 1380 480 1870J
-preplace netloc processing_system7_0_FCLK_CLK1 1 0 7 30 440 NJ 440 NJ 440 1040J 550 1370 490 1880 460 NJ
-preplace netloc processing_system7_0_FCLK_CLK2 1 1 5 390 170 690 140 1090 360 1400 390 1860
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 20 420 NJ 420 NJ 420 1080J 410 NJ 410 1870 470 2100J
-preplace netloc xlconcat_0_dout 1 4 2 1370 400 NJ
-preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 2 1070 380 1390
-preplace netloc axi_dma_0_M_AXI_MM2S 1 3 1 N 240
-preplace netloc axi_dma_0_M_AXI_S2MM 1 3 1 N 260
-preplace netloc axi_dma_0_M_AXI_SG 1 3 1 N 220
-preplace netloc axis_data_fifo_0_M_AXIS 1 5 2 1890 480 2090J
-preplace netloc processing_system7_0_DDR 1 5 2 NJ 230 NJ
-preplace netloc processing_system7_0_FIXED_IO 1 5 2 NJ 250 NJ
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 380 160 670J 150 NJ 150 NJ 150 1860
-preplace netloc smartconnect_0_M00_AXI 1 4 1 N 260
-preplace netloc smartconnect_1_M00_AXI 1 2 1 680 80n
-levelinfo -pg 1 0 200 530 870 1230 1630 1990 2140
-pagesize -pg 1 -db -bbox -sgen 0 0 2290 810
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2260 -y 430 -defaultsOSRD
+preplace port ddr3 -pg 1 -lvl 7 -x 2260 -y 410 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 7 -x 2260 -y 230 -defaultsOSRD
+preplace port UART -pg 1 -lvl 7 -x 2260 -y 450 -defaultsOSRD
+preplace port port-id_PL_CLK_100M -pg 1 -lvl 7 -x 2260 -y 390 -defaultsOSRD
+preplace port port-id_PS_RSTN -pg 1 -lvl 7 -x 2260 -y 840 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 1620 -y 470 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 1 -x 190 -y 360 -defaultsOSRD -resize 300 156
+preplace inst axi_dma_0 -pg 1 -lvl 3 -x 850 -y 390 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 4 -x 1220 -y 360 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 5 -x 1620 -y 230 -defaultsOSRD
+preplace inst smartconnect_1 -pg 1 -lvl 2 -x 520 -y 340 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -x 1220 -y 530 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 5 -x 1620 -y 80 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 6 -x 2050 -y 590 -defaultsOSRD
+preplace inst system_ila_2 -pg 1 -lvl 6 -x 2050 -y 310 -defaultsOSRD
+preplace inst rst_ps7_0_200M -pg 1 -lvl 6 -x 2050 -y 740 -defaultsOSRD
+preplace netloc axi_dma_0_mm2s_introut 1 3 1 1070 440n
+preplace netloc axi_dma_0_s2mm_introut 1 3 1 1040 460n
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 1 5 360 250 670 530 1050 260 1380 330 NJ
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 7 20 260 NJ 260 660J 540 1080J 460 1390 320 1880 390 NJ
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 5 380 420 680 520 1060 600 1370 590 1870
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 20 620 NJ 620 NJ 620 NJ 620 NJ 620 1860 840 NJ
+preplace netloc xlconcat_0_dout 1 4 2 1390 600 NJ
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 2 1040 250 1360
+preplace netloc axi_dma_0_M_AXI_MM2S 1 3 1 N 340
+preplace netloc axi_dma_0_M_AXI_S2MM 1 3 1 N 360
+preplace netloc axi_dma_0_M_AXI_SG 1 3 1 N 320
+preplace netloc axis_data_fifo_0_M_AXIS 1 5 2 1880 230 NJ
+preplace netloc processing_system7_0_DDR 1 5 2 NJ 410 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 5 2 NJ 430 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 370 610 NJ 610 NJ 610 NJ 610 1850
+preplace netloc smartconnect_0_M00_AXI 1 4 1 1360 360n
+preplace netloc smartconnect_1_M00_AXI 1 2 1 N 330
+preplace netloc processing_system7_0_UART_0 1 5 2 NJ 450 NJ
+levelinfo -pg 1 0 190 520 850 1220 1620 2050 2260
+pagesize -pg 1 -db -bbox -sgen 0 0 2410 860
 "
 }
 {
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"1",
    "da_clkrst_cnt":"1",
    "da_ps7_cnt":"4"
 }
