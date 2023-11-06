@@ -42,7 +42,7 @@
  ************************************************************/
 // 要传输的每个packet大小
 //？？？！！！是否称为每个bd的内存大小更为合适
-#define MAX_PKT_LEN		0x1000   //单位bit
+#define MAX_PKT_LEN		0x1000   //单位bit,改成4是不是会更加完美呢
 // 每个packet对应的BD数量
 #define NUMBER_OF_BDS_PER_PKT		128*0xff
 // 一共要传输的packet个数
@@ -62,7 +62,6 @@
 
 #define INTC		XScuGic
 #define INTC_HANDLER	XScuGic_InterruptHandler
-
 
 /**************************** Type Definitions *******************************/
 static void TxCallBack(XAxiDma_BdRing * TxRingPtr);
@@ -95,23 +94,19 @@ void SetIntIO() { //设置积分时的io状态
 
 }
 
-//void SetBuffInitConfig(u32 cycleCnt, u32 initCnt) {
-//	u32 bd_len = 0x1000; //单个bd的长度
-//	u32 bds_per_pkt=128;
-//
-//	u32 bds_num = cycleCnt/bd_len; //需要多少个bd
-//	u32 pkts_num=100;
-//	u32 end_bds_len = cycleCnt % bdlen; //最后一个bd的长度
-//
-//	u32 bds_num;
-//	for(int pkts=0;pkts<;pkt++
-//			) {
-//				for(int bds=0;bds<;bds++) {
-//
-//				}
-//			}
-//
-//		}
+void SetBuffInitConfig(u32 cycleCnt, u32 initCnt) {
+	u32 bd_len = 0x1000; //单个bd的长度
+	u32 bds_num = cycleCnt / bd_len; //需要多少个bd
+	u32 end_bds_len = cycleCnt % bdlen; //最后一个bd的长度
+
+	u32 bds_num;
+	for (int pkts = 0; pkts < 12; pkt++) {
+		for (int bds = 0; bds < 12; bds++) {
+
+		}
+	}
+
+}
 
 void GenerteChannelDataCycle(u32 *addr, u8 Channel, u32 highCnt, u32 lowCnt,
 		u32 cycleCnt) {
@@ -224,199 +219,6 @@ int main(void) {
 	DisableIntrSystem(&Intc, TX_INTR_ID, RX_INTR_ID);
 	return XST_SUCCESS;
 }
-
-/*****************************************************************************/
-static void TxCallBack(XAxiDma_BdRing * TxRingPtr) {
-	XAxiDma_Bd *BdPtr;
-
-	/* Get all processed BDs from hardware */
-	XAxiDma_BdRingFromHw(TxRingPtr, XAXIDMA_ALL_BDS, &BdPtr);
-}
-
-/*****************************************************************************/
-static void TxIntrHandler(void *Callback) {
-	XAxiDma_BdRing *TxRingPtr = (XAxiDma_BdRing *) Callback;
-	u32 IrqStatus;
-	int TimeOut;
-
-	/* Read pending interrupts */
-	IrqStatus = XAxiDma_BdRingGetIrq(TxRingPtr);
-
-	/* Acknowledge pending interrupts */
-	XAxiDma_BdRingAckIrq(TxRingPtr, IrqStatus);
-
-	/* If no interrupt is asserted, we do not do anything
-	 */
-	if (!(IrqStatus & XAXIDMA_IRQ_ALL_MASK)) {
-
-		return;
-	}
-
-	/*
-	 * If error interrupt is asserted, raise error flag, reset the
-	 * hardware to recover from the error, and return with no further
-	 * processing.
-	 */
-	if ((IrqStatus & XAXIDMA_IRQ_ERROR_MASK)) {
-
-		XAxiDma_BdRingDumpRegs(TxRingPtr);
-
-		Error = 1;
-
-		/*
-		 * Reset should never fail for transmit channel
-		 */
-		XAxiDma_Reset(&AxiDma);
-
-		TimeOut = RESET_TIMEOUT_COUNTER;
-
-		while (TimeOut) {
-			if (XAxiDma_ResetIsDone(&AxiDma)) {
-				break;
-			}
-
-			TimeOut -= 1;
-		}
-
-		return;
-	}
-
-	/*
-	 * If Transmit done interrupt is asserted, call TX call back function
-	 * to handle the processed BDs and raise the according flag
-	 */
-	if ((IrqStatus & (XAXIDMA_IRQ_DELAY_MASK | XAXIDMA_IRQ_IOC_MASK))) {
-		TxCallBack(TxRingPtr);
-	}
-}
-
-/*****************************************************************************/
-static void RxCallBack(XAxiDma_BdRing * RxRingPtr) {
-	XAxiDma_Bd *BdPtr;
-	/* Get finished BDs from hardware */
-	XAxiDma_BdRingFromHw(RxRingPtr, XAXIDMA_ALL_BDS, &BdPtr);
-}
-
-/*****************************************************************************/
-static void RxIntrHandler(void *Callback) {
-	XAxiDma_BdRing *RxRingPtr = (XAxiDma_BdRing *) Callback;
-	u32 IrqStatus;
-	int TimeOut;
-
-	/* Read pending interrupts */
-	IrqStatus = XAxiDma_BdRingGetIrq(RxRingPtr);
-
-	/* Acknowledge pending interrupts */
-	XAxiDma_BdRingAckIrq(RxRingPtr, IrqStatus);
-
-	/*
-	 * If no interrupt is asserted, we do not do anything
-	 */
-	if (!(IrqStatus & XAXIDMA_IRQ_ALL_MASK)) {
-		return;
-	}
-
-	/*
-	 * If error interrupt is asserted, raise error flag, reset the
-	 * hardware to recover from the error, and return with no further
-	 * processing.
-	 */
-	if ((IrqStatus & XAXIDMA_IRQ_ERROR_MASK)) {
-
-		XAxiDma_BdRingDumpRegs(RxRingPtr);
-
-		Error = 1;
-
-		/* Reset could fail and hang
-		 * NEED a way to handle this or do not call it??
-		 */
-		XAxiDma_Reset(&AxiDma);
-
-		TimeOut = RESET_TIMEOUT_COUNTER;
-
-		while (TimeOut) {
-			if (XAxiDma_ResetIsDone(&AxiDma)) {
-				break;
-			}
-
-			TimeOut -= 1;
-		}
-
-		return;
-	}
-
-	/*
-	 * If completion interrupt is asserted, call RX call back function
-	 * to handle the processed BDs and then raise the according flag.
-	 */
-	if ((IrqStatus & (XAXIDMA_IRQ_DELAY_MASK | XAXIDMA_IRQ_IOC_MASK))) {
-		RxCallBack(RxRingPtr);
-	}
-}
-
-static int SetupIntrSystem(INTC * IntcInstancePtr, XAxiDma * AxiDmaPtr,
-		u16 TxIntrId, u16 RxIntrId) {
-	XAxiDma_BdRing *TxRingPtr = XAxiDma_GetTxRing(AxiDmaPtr);
-	XAxiDma_BdRing *RxRingPtr = XAxiDma_GetRxRing(AxiDmaPtr);
-	int Status;
-
-	XScuGic_Config *IntcConfig;
-
-	/*
-	 * Initialize the interrupt controller driver so that it is ready to
-	 * use.
-	 */
-	IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
-	if (NULL == IntcConfig) {
-		return XST_FAILURE;
-	}
-
-	Status = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
-			IntcConfig->CpuBaseAddress);
-	if (Status != XST_SUCCESS) {
-		return XST_FAILURE;
-	}
-
-	XScuGic_SetPriorityTriggerType(IntcInstancePtr, TxIntrId, 0xA0, 0x3);
-
-	XScuGic_SetPriorityTriggerType(IntcInstancePtr, RxIntrId, 0xA0, 0x3);
-	/*
-	 * Connect the device driver handler that will be called when an
-	 * interrupt for the device occurs, the handler defined above performs
-	 * the specific interrupt processing for the device.
-	 */
-	Status = XScuGic_Connect(IntcInstancePtr, TxIntrId,
-			(Xil_InterruptHandler) TxIntrHandler, TxRingPtr);
-	if (Status != XST_SUCCESS) {
-		return Status;
-	}
-
-	Status = XScuGic_Connect(IntcInstancePtr, RxIntrId,
-			(Xil_InterruptHandler) RxIntrHandler, RxRingPtr);
-	if (Status != XST_SUCCESS) {
-		return Status;
-	}
-
-	XScuGic_Enable(IntcInstancePtr, TxIntrId);
-	XScuGic_Enable(IntcInstancePtr, RxIntrId);
-
-	/* Enable interrupts from the hardware */
-
-	Xil_ExceptionInit();
-	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
-			(Xil_ExceptionHandler) INTC_HANDLER, (void *) IntcInstancePtr);
-
-	Xil_ExceptionEnable()
-	;
-	return XST_SUCCESS;
-}
-
-static void DisableIntrSystem(INTC * IntcInstancePtr, u16 TxIntrId,
-		u16 RxIntrId) {
-	XScuGic_Disconnect(IntcInstancePtr, TxIntrId);
-	XScuGic_Disconnect(IntcInstancePtr, RxIntrId);
-}
-
 /*****************************************************************************/
 static int RxSetup(XAxiDma * AxiDmaInstPtr) {
 	XAxiDma_BdRing *RxRingPtr;
@@ -719,3 +521,196 @@ static int SendPacket(XAxiDma * AxiDmaInstPtr) {
 
 	return XST_SUCCESS;
 }
+
+/*****************************************************************************/
+static void TxCallBack(XAxiDma_BdRing * TxRingPtr) {
+	XAxiDma_Bd *BdPtr;
+
+	/* Get all processed BDs from hardware */
+	XAxiDma_BdRingFromHw(TxRingPtr, XAXIDMA_ALL_BDS, &BdPtr);
+}
+
+/*****************************************************************************/
+static void TxIntrHandler(void *Callback) {
+	XAxiDma_BdRing *TxRingPtr = (XAxiDma_BdRing *) Callback;
+	u32 IrqStatus;
+	int TimeOut;
+
+	/* Read pending interrupts */
+	IrqStatus = XAxiDma_BdRingGetIrq(TxRingPtr);
+
+	/* Acknowledge pending interrupts */
+	XAxiDma_BdRingAckIrq(TxRingPtr, IrqStatus);
+
+	/* If no interrupt is asserted, we do not do anything
+	 */
+	if (!(IrqStatus & XAXIDMA_IRQ_ALL_MASK)) {
+
+		return;
+	}
+
+	/*
+	 * If error interrupt is asserted, raise error flag, reset the
+	 * hardware to recover from the error, and return with no further
+	 * processing.
+	 */
+	if ((IrqStatus & XAXIDMA_IRQ_ERROR_MASK)) {
+
+		XAxiDma_BdRingDumpRegs(TxRingPtr);
+
+		Error = 1;
+
+		/*
+		 * Reset should never fail for transmit channel
+		 */
+		XAxiDma_Reset(&AxiDma);
+
+		TimeOut = RESET_TIMEOUT_COUNTER;
+
+		while (TimeOut) {
+			if (XAxiDma_ResetIsDone(&AxiDma)) {
+				break;
+			}
+
+			TimeOut -= 1;
+		}
+
+		return;
+	}
+
+	/*
+	 * If Transmit done interrupt is asserted, call TX call back function
+	 * to handle the processed BDs and raise the according flag
+	 */
+	if ((IrqStatus & (XAXIDMA_IRQ_DELAY_MASK | XAXIDMA_IRQ_IOC_MASK))) {
+		TxCallBack(TxRingPtr);
+	}
+}
+
+/*****************************************************************************/
+static void RxCallBack(XAxiDma_BdRing * RxRingPtr) {
+	XAxiDma_Bd *BdPtr;
+	/* Get finished BDs from hardware */
+	XAxiDma_BdRingFromHw(RxRingPtr, XAXIDMA_ALL_BDS, &BdPtr);
+}
+
+/*****************************************************************************/
+static void RxIntrHandler(void *Callback) {
+	XAxiDma_BdRing *RxRingPtr = (XAxiDma_BdRing *) Callback;
+	u32 IrqStatus;
+	int TimeOut;
+
+	/* Read pending interrupts */
+	IrqStatus = XAxiDma_BdRingGetIrq(RxRingPtr);
+
+	/* Acknowledge pending interrupts */
+	XAxiDma_BdRingAckIrq(RxRingPtr, IrqStatus);
+
+	/*
+	 * If no interrupt is asserted, we do not do anything
+	 */
+	if (!(IrqStatus & XAXIDMA_IRQ_ALL_MASK)) {
+		return;
+	}
+
+	/*
+	 * If error interrupt is asserted, raise error flag, reset the
+	 * hardware to recover from the error, and return with no further
+	 * processing.
+	 */
+	if ((IrqStatus & XAXIDMA_IRQ_ERROR_MASK)) {
+
+		XAxiDma_BdRingDumpRegs(RxRingPtr);
+
+		Error = 1;
+
+		/* Reset could fail and hang
+		 * NEED a way to handle this or do not call it??
+		 */
+		XAxiDma_Reset(&AxiDma);
+
+		TimeOut = RESET_TIMEOUT_COUNTER;
+
+		while (TimeOut) {
+			if (XAxiDma_ResetIsDone(&AxiDma)) {
+				break;
+			}
+
+			TimeOut -= 1;
+		}
+
+		return;
+	}
+
+	/*
+	 * If completion interrupt is asserted, call RX call back function
+	 * to handle the processed BDs and then raise the according flag.
+	 */
+	if ((IrqStatus & (XAXIDMA_IRQ_DELAY_MASK | XAXIDMA_IRQ_IOC_MASK))) {
+		RxCallBack(RxRingPtr);
+	}
+}
+
+static int SetupIntrSystem(INTC * IntcInstancePtr, XAxiDma * AxiDmaPtr,
+		u16 TxIntrId, u16 RxIntrId) {
+	XAxiDma_BdRing *TxRingPtr = XAxiDma_GetTxRing(AxiDmaPtr);
+	XAxiDma_BdRing *RxRingPtr = XAxiDma_GetRxRing(AxiDmaPtr);
+	int Status;
+
+	XScuGic_Config *IntcConfig;
+
+	/*
+	 * Initialize the interrupt controller driver so that it is ready to
+	 * use.
+	 */
+	IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+	if (NULL == IntcConfig) {
+		return XST_FAILURE;
+	}
+
+	Status = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+			IntcConfig->CpuBaseAddress);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	XScuGic_SetPriorityTriggerType(IntcInstancePtr, TxIntrId, 0xA0, 0x3);
+
+	XScuGic_SetPriorityTriggerType(IntcInstancePtr, RxIntrId, 0xA0, 0x3);
+	/*
+	 * Connect the device driver handler that will be called when an
+	 * interrupt for the device occurs, the handler defined above performs
+	 * the specific interrupt processing for the device.
+	 */
+	Status = XScuGic_Connect(IntcInstancePtr, TxIntrId,
+			(Xil_InterruptHandler) TxIntrHandler, TxRingPtr);
+	if (Status != XST_SUCCESS) {
+		return Status;
+	}
+
+	Status = XScuGic_Connect(IntcInstancePtr, RxIntrId,
+			(Xil_InterruptHandler) RxIntrHandler, RxRingPtr);
+	if (Status != XST_SUCCESS) {
+		return Status;
+	}
+
+	XScuGic_Enable(IntcInstancePtr, TxIntrId);
+	XScuGic_Enable(IntcInstancePtr, RxIntrId);
+
+	/* Enable interrupts from the hardware */
+
+	Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+			(Xil_ExceptionHandler) INTC_HANDLER, (void *) IntcInstancePtr);
+
+	Xil_ExceptionEnable()
+	;
+	return XST_SUCCESS;
+}
+
+static void DisableIntrSystem(INTC * IntcInstancePtr, u16 TxIntrId,
+		u16 RxIntrId) {
+	XScuGic_Disconnect(IntcInstancePtr, TxIntrId);
+	XScuGic_Disconnect(IntcInstancePtr, RxIntrId);
+}
+
