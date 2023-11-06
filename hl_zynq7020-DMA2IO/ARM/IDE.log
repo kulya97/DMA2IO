@@ -1959,3 +1959,607 @@ con
 ----------------End of Script----------------
 
 17:41:29 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+14:58:09 INFO  : Result from executing command 'getProjects': top_module
+14:58:09 INFO  : Result from executing command 'getPlatforms': top_module|E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/top_module.xpfm;xilinx_vck190_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:58:10 INFO  : Hardware specification for platform project 'top_module' is updated.
+14:58:19 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+14:58:28 INFO  : Updating application flags with new BSP settings...
+14:58:28 INFO  : Successfully updated application flags for project DMA2GPIO.
+14:58:33 ERROR : XSCT server calls should not be made from TCF thread.
+java.lang.RuntimeException: XSCT server calls should not be made from TCF thread.
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:392) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:325) [com.xilinx.sdk.xsdb_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.populateDesignProps(HwPlatform.java:521) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.isZynq(HwPlatform.java:1101) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.hw.internal.HwPlatform.getArchFamily(HwPlatform.java:587) [com.xilinx.sdk.hw_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readCrossTriggerModel(BaseLaunchConfigModel.java:174) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdk.tcf.internal.debug.ui.common.BaseLaunchConfigModel.readAndSetAttributes(BaseLaunchConfigModel.java:156) [com.xilinx.sdk.tcf.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.ui.SdsLaunchConfigModel.newInstance(SdsLaunchConfigModel.java:109) [com.xilinx.sdx.sdsoc.debug.ui_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.createConfigModel(SdsTcfLaunchDelegate.java:85) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.generateReports(SdsTcfLaunchDelegate.java:641) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at com.xilinx.sdx.sdsoc.debug.launch.SdsTcfLaunchDelegate.onDisconnected(SdsTcfLaunchDelegate.java:615) [com.xilinx.sdx.sdsoc.debug_1.0.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelManager$1.onDisconnected(TCFModelManager.java:79) [org.eclipse.tcf.debug.ui_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch.onDisconnected(TCFLaunch.java:532) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.internal.debug.model.TCFLaunch$43.onChannelClosed(TCFLaunch.java:1643) [org.eclipse.tcf.debug_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:858) [org.eclipse.tcf.core_1.7.0.202210132147.jar:?]
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98) [org.eclipse.tcf_1.7.0.202210132147.jar:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+14:58:33 INFO  : Disconnected from the channel tcfchan#12.
+14:58:33 INFO  : The hardware specification used by project 'DMA2GPIO' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+14:58:33 INFO  : The file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO\_ide\bitstream\top_module.bit' stored in project is removed.
+14:58:33 INFO  : The updated bitstream files are copied from platform to folder 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO\_ide\bitstream' in project 'DMA2GPIO'.
+14:58:33 INFO  : The file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO\_ide\psinit\ps7_init.tcl' stored in project is removed.
+14:58:35 INFO  : The updated ps init files are copied from platform to folder 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO\_ide\psinit' in project 'DMA2GPIO'.
+14:58:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:58:35 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+14:58:35 INFO  : 'jtag frequency' command is executed.
+14:58:35 INFO  : Context for 'APU' is selected.
+14:58:35 INFO  : System reset is completed.
+14:58:38 INFO  : 'after 3000' command is executed.
+14:58:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+14:58:42 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+14:58:42 INFO  : Context for 'APU' is selected.
+14:58:42 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+14:58:42 INFO  : 'configparams force-mem-access 1' command is executed.
+14:58:42 INFO  : Context for 'APU' is selected.
+14:58:42 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+14:58:42 INFO  : 'ps7_init' command is executed.
+14:58:42 INFO  : 'ps7_post_config' command is executed.
+14:58:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:58:42 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:58:42 INFO  : 'configparams force-mem-access 0' command is executed.
+14:58:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:58:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:58:42 INFO  : 'con' command is executed.
+14:58:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:58:42 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+14:59:03 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+14:59:05 INFO  : Disconnected from the channel tcfchan#14.
+14:59:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:05 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+14:59:05 INFO  : 'jtag frequency' command is executed.
+14:59:05 INFO  : Context for 'APU' is selected.
+14:59:05 INFO  : System reset is completed.
+14:59:08 INFO  : 'after 3000' command is executed.
+14:59:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+14:59:12 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+14:59:12 INFO  : Context for 'APU' is selected.
+14:59:12 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+14:59:12 INFO  : 'configparams force-mem-access 1' command is executed.
+14:59:12 INFO  : Context for 'APU' is selected.
+14:59:12 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+14:59:12 INFO  : 'ps7_init' command is executed.
+14:59:12 INFO  : 'ps7_post_config' command is executed.
+14:59:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:12 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:59:12 INFO  : 'configparams force-mem-access 0' command is executed.
+14:59:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:59:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:12 INFO  : 'con' command is executed.
+14:59:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:59:12 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+14:59:47 INFO  : Disconnected from the channel tcfchan#15.
+14:59:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:47 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+14:59:47 INFO  : 'jtag frequency' command is executed.
+14:59:47 INFO  : Context for 'APU' is selected.
+14:59:47 INFO  : System reset is completed.
+14:59:50 INFO  : 'after 3000' command is executed.
+14:59:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+14:59:54 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+14:59:54 INFO  : Context for 'APU' is selected.
+14:59:54 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+14:59:54 INFO  : 'configparams force-mem-access 1' command is executed.
+14:59:54 INFO  : Context for 'APU' is selected.
+14:59:54 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+14:59:54 INFO  : 'ps7_init' command is executed.
+14:59:54 INFO  : 'ps7_post_config' command is executed.
+14:59:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:54 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:59:54 INFO  : 'configparams force-mem-access 0' command is executed.
+14:59:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:59:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:54 INFO  : 'con' command is executed.
+14:59:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:59:54 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+15:03:19 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+15:04:31 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+15:04:33 INFO  : Disconnected from the channel tcfchan#16.
+15:04:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:33 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:04:33 INFO  : 'jtag frequency' command is executed.
+15:04:33 INFO  : Context for 'APU' is selected.
+15:04:33 INFO  : System reset is completed.
+15:04:36 INFO  : 'after 3000' command is executed.
+15:04:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+15:04:40 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+15:04:40 INFO  : Context for 'APU' is selected.
+15:04:40 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+15:04:40 INFO  : 'configparams force-mem-access 1' command is executed.
+15:04:40 INFO  : Context for 'APU' is selected.
+15:04:40 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+15:04:40 INFO  : 'ps7_init' command is executed.
+15:04:40 INFO  : 'ps7_post_config' command is executed.
+15:04:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:04:40 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:04:40 INFO  : 'configparams force-mem-access 0' command is executed.
+15:04:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:04:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:04:40 INFO  : 'con' command is executed.
+15:04:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:04:40 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+15:05:32 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+15:05:34 INFO  : Disconnected from the channel tcfchan#17.
+15:05:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:05:34 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:05:34 INFO  : 'jtag frequency' command is executed.
+15:05:34 INFO  : Context for 'APU' is selected.
+15:05:34 INFO  : System reset is completed.
+15:05:37 INFO  : 'after 3000' command is executed.
+15:05:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+15:05:41 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+15:05:41 INFO  : Context for 'APU' is selected.
+15:05:41 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+15:05:41 INFO  : 'configparams force-mem-access 1' command is executed.
+15:05:41 INFO  : Context for 'APU' is selected.
+15:05:41 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+15:05:41 INFO  : 'ps7_init' command is executed.
+15:05:41 INFO  : 'ps7_post_config' command is executed.
+15:05:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:41 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:05:41 INFO  : 'configparams force-mem-access 0' command is executed.
+15:05:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:05:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:41 INFO  : 'con' command is executed.
+15:05:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:05:41 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+15:08:28 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+15:08:30 INFO  : Disconnected from the channel tcfchan#18.
+15:08:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:08:30 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:08:30 INFO  : 'jtag frequency' command is executed.
+15:08:30 INFO  : Context for 'APU' is selected.
+15:08:30 INFO  : System reset is completed.
+15:08:33 INFO  : 'after 3000' command is executed.
+15:08:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+15:08:36 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+15:08:36 INFO  : Context for 'APU' is selected.
+15:08:36 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+15:08:36 INFO  : 'configparams force-mem-access 1' command is executed.
+15:08:37 INFO  : Context for 'APU' is selected.
+15:08:37 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+15:08:37 INFO  : 'ps7_init' command is executed.
+15:08:37 INFO  : 'ps7_post_config' command is executed.
+15:08:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:37 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:08:37 INFO  : 'configparams force-mem-access 0' command is executed.
+15:08:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:08:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:37 INFO  : 'con' command is executed.
+15:08:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:08:37 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+15:12:43 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:26:23 INFO  : Result from executing command 'getProjects': top_module
+16:26:23 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:26:24 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:26:26 INFO  : Disconnected from the channel tcfchan#19.
+16:26:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:26:26 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:26:26 INFO  : 'jtag frequency' command is executed.
+16:26:26 INFO  : Context for 'APU' is selected.
+16:26:26 INFO  : System reset is completed.
+16:26:29 INFO  : 'after 3000' command is executed.
+16:26:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+16:26:33 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+16:26:33 INFO  : Context for 'APU' is selected.
+16:26:33 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+16:26:33 INFO  : 'configparams force-mem-access 1' command is executed.
+16:26:33 INFO  : Context for 'APU' is selected.
+16:26:33 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+16:26:33 INFO  : 'ps7_init' command is executed.
+16:26:33 INFO  : 'ps7_post_config' command is executed.
+16:26:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:26:33 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:26:33 INFO  : 'configparams force-mem-access 0' command is executed.
+16:26:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:26:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:26:33 INFO  : 'con' command is executed.
+16:26:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:26:33 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+16:27:33 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:27:35 INFO  : Disconnected from the channel tcfchan#21.
+16:27:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:27:36 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:27:36 INFO  : 'jtag frequency' command is executed.
+16:27:36 INFO  : Context for 'APU' is selected.
+16:27:36 INFO  : System reset is completed.
+16:27:39 INFO  : 'after 3000' command is executed.
+16:27:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+16:27:42 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+16:27:42 INFO  : Context for 'APU' is selected.
+16:27:42 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+16:27:42 INFO  : 'configparams force-mem-access 1' command is executed.
+16:27:42 INFO  : Context for 'APU' is selected.
+16:27:42 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+16:27:42 INFO  : 'ps7_init' command is executed.
+16:27:42 INFO  : 'ps7_post_config' command is executed.
+16:27:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:27:42 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:27:42 INFO  : 'configparams force-mem-access 0' command is executed.
+16:27:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:27:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:27:43 INFO  : 'con' command is executed.
+16:27:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:27:43 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+16:29:57 INFO  : Disconnected from the channel tcfchan#22.
+16:29:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:29:57 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:29:57 INFO  : 'jtag frequency' command is executed.
+16:29:57 INFO  : Context for 'APU' is selected.
+16:29:57 INFO  : System reset is completed.
+16:30:00 INFO  : 'after 3000' command is executed.
+16:30:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+16:30:03 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+16:30:03 INFO  : Context for 'APU' is selected.
+16:30:03 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+16:30:03 INFO  : 'configparams force-mem-access 1' command is executed.
+16:30:03 INFO  : Context for 'APU' is selected.
+16:30:03 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+16:30:03 INFO  : 'ps7_init' command is executed.
+16:30:03 INFO  : 'ps7_post_config' command is executed.
+16:30:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:30:04 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:30:04 INFO  : 'configparams force-mem-access 0' command is executed.
+16:30:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:30:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:30:04 INFO  : 'con' command is executed.
+16:30:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:30:04 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+16:35:10 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:35:31 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:36:22 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:38:14 INFO  : No changes in MSS file content so sources will not be generated.
+16:38:21 INFO  : Result from executing command 'getProjects': top_module
+16:38:21 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:42:46 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:42:46 INFO  : Updating application flags with new BSP settings...
+16:42:46 INFO  : Successfully updated application flags for project DMA2GPIO.
+16:42:48 INFO  : Disconnected from the channel tcfchan#23.
+16:42:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:42:48 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:42:48 INFO  : 'jtag frequency' command is executed.
+16:42:48 INFO  : Context for 'APU' is selected.
+16:42:48 INFO  : System reset is completed.
+16:42:51 INFO  : 'after 3000' command is executed.
+16:42:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+16:42:55 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+16:42:55 INFO  : Context for 'APU' is selected.
+16:42:55 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+16:42:55 INFO  : 'configparams force-mem-access 1' command is executed.
+16:42:55 INFO  : Context for 'APU' is selected.
+16:42:55 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+16:42:55 INFO  : 'ps7_init' command is executed.
+16:42:55 INFO  : 'ps7_post_config' command is executed.
+16:42:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:42:55 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:42:55 INFO  : 'configparams force-mem-access 0' command is executed.
+16:42:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:42:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:42:55 INFO  : 'con' command is executed.
+16:42:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:42:55 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+16:43:28 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:43:40 INFO  : Checking for BSP changes to sync application flags for project 'DMA2GPIO'...
+16:43:42 INFO  : Disconnected from the channel tcfchan#25.
+16:43:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:43:42 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:43:42 INFO  : 'jtag frequency' command is executed.
+16:43:42 INFO  : Context for 'APU' is selected.
+16:43:42 INFO  : System reset is completed.
+16:43:45 INFO  : 'after 3000' command is executed.
+16:43:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+16:43:49 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+16:43:49 INFO  : Context for 'APU' is selected.
+16:43:49 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+16:43:49 INFO  : 'configparams force-mem-access 1' command is executed.
+16:43:49 INFO  : Context for 'APU' is selected.
+16:43:49 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+16:43:49 INFO  : 'ps7_init' command is executed.
+16:43:49 INFO  : 'ps7_post_config' command is executed.
+16:43:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:43:49 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:43:49 INFO  : 'configparams force-mem-access 0' command is executed.
+16:43:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:43:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:43:49 INFO  : 'con' command is executed.
+16:43:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:43:49 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+16:44:07 INFO  : Disconnected from the channel tcfchan#26.
+16:44:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:44:07 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+16:44:07 INFO  : 'jtag frequency' command is executed.
+16:44:07 INFO  : Context for 'APU' is selected.
+16:44:07 INFO  : System reset is completed.
+16:44:10 INFO  : 'after 3000' command is executed.
+16:44:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}' command is executed.
+16:44:13 INFO  : Device configured successfully with "E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit"
+16:44:14 INFO  : Context for 'APU' is selected.
+16:44:14 INFO  : Hardware design and registers information is loaded from 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa'.
+16:44:14 INFO  : 'configparams force-mem-access 1' command is executed.
+16:44:14 INFO  : Context for 'APU' is selected.
+16:44:14 INFO  : Sourcing of 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl' is done.
+16:44:14 INFO  : 'ps7_init' command is executed.
+16:44:14 INFO  : 'ps7_post_config' command is executed.
+16:44:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:44:14 INFO  : The application 'E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:44:14 INFO  : 'configparams force-mem-access 0' command is executed.
+16:44:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}
+fpga -file E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/bitstream/top_module.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/top_module/export/top_module/hw/top_module.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/DMA2IO/hl_zynq7020-DMA2IO/ARM/DMA2GPIO/Debug/DMA2GPIO.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:44:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:44:14 INFO  : 'con' command is executed.
+16:44:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:44:14 INFO  : Launch script is exported to file 'E:\DMA2IO\hl_zynq7020-DMA2IO\ARM\DMA2GPIO_system\_ide\scripts\systemdebugger_dma2gpio_system_standalone.tcl'
+14:39:56 INFO  : Disconnected from the channel tcfchan#27.

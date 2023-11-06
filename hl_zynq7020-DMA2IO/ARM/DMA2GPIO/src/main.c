@@ -20,11 +20,11 @@
 
 #define TX_BD_SPACE_BASE	(MEM_BASE_ADDR + 0x00100000)
 #define TX_BD_SPACE_HIGH	(MEM_BASE_ADDR + 0x00FFFFFF)
+#define RX_BD_SPACE_BASE	(MEM_BASE_ADDR)
+#define RX_BD_SPACE_HIGH	(MEM_BASE_ADDR + 0x000FFFFF)
 
 #define TX_BUFFER_BASE		(MEM_BASE_ADDR + 0x10000000)
 
-#define RX_BD_SPACE_BASE	(MEM_BASE_ADDR)
-#define RX_BD_SPACE_HIGH	(MEM_BASE_ADDR + 0x000FFFFF)
 #define RX_BUFFER_BASE		(MEM_BASE_ADDR + 0x03000000)
 #define RX_BUFFER_HIGH		(MEM_BASE_ADDR + 0x04FFFFFF)
 
@@ -44,7 +44,7 @@
 //？？？！！！是否称为每个bd的内存大小更为合适
 #define MAX_PKT_LEN		0x1000   //单位bit,改成4是不是会更加完美呢
 // 每个packet对应的BD数量
-#define NUMBER_OF_BDS_PER_PKT		128*0xff
+#define NUMBER_OF_BDS_PER_PKT		128*0xff*0xff
 // 一共要传输的packet个数
 #define NUMBER_OF_PKTS_TO_TRANSFER 	0x1
 // 总共需要的BD总数
